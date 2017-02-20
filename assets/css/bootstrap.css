@@ -1092,6 +1092,7 @@ pre code {
   margin-left: 8.333333333333332%;
 }
 
+/* Small Devices, Tablets */
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -1254,7 +1255,7 @@ pre code {
     margin-left: 8.333333333333332%;
   }
 }
-
+/* Medium Devices, Desktops */
 @media (min-width: 992px) {
   .container {
     width: 970px;
@@ -1417,7 +1418,7 @@ pre code {
     margin-left: 8.333333333333332%;
   }
 }
-
+/* Large Devices, Wide Screens */
 @media (min-width: 1200px) {
   .container {
     width: 1170px;

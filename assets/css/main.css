@@ -123,11 +123,33 @@ a:after {
 }
 
 /* ==========================================================================
+   NAVBAR
+   ========================================================================== */
+
+.navbar, .navbar-inverse{
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+    border-bottom: none; 
+    color: aliceblue;
+}
+
+a {
+    color: antiquewhite;
+}
+/* ==========================================================================
    HEADER
    ========================================================================== */
 
 .subheading {
-    color: #efefef;    
+    color: #efefef;
+    line-height: 1.4;
+}
+
+.logo {
+    display: inline-block;
+    top: 230px;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 
@@ -137,12 +159,11 @@ a:after {
 
 #headerwrap {
 	background: url(../img/bg_1.jpg) no-repeat center top;
-	margin-top: -10px;
-	padding-top: 5em;
+	margin-top: -70px;
 	text-align: center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 100vh;
+	height: 100vh;
     
     
     -webkit-animation: zoomin 120s infinite linear 1s;
@@ -160,8 +181,6 @@ a:after {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
-    
 }
 
 #headerwrap:before {
@@ -169,7 +188,7 @@ a:after {
   position: absolute;
   top: 0;
   right: 0;
-  bottom: -60px;
+  bottom: 0;
   left: 0;
   background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
   opacity: .6;
@@ -197,6 +216,7 @@ a:after {
 	padding-top: 70px;
 	padding-bottom: 70px;
 	text-align: center;
+    box-shadow: inset -2px -2px 13px 0px rgba(0, 0, 0, 0.3);
 }
 
 #dg h4 {
@@ -210,12 +230,6 @@ a:after {
 	padding-bottom: 70px;
 	text-align: center;
 }
-
-#lg h4 {
-	font-weight: 700;
-}
-
-
 /* Red Wrap */
 #r {
 	background: #00BDF2;
