@@ -216,13 +216,6 @@ li a {
 	background-attachment: relative;
 	background-position: center center;
 	height: 100vh;
-
-    
-    -webkit-animation: zoomin 120s infinite linear 1s;
-    -moz-animation: zoomin 120s infinite linear 1s;
-    -o-animation: zoomin 120s infinite linear 1s;
-    animation: zoomin 120s infinite linear 1s;
-    
 	
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -519,6 +512,7 @@ li a {
 .back-to-top:focus {
     color: #fff;
 }
+
 
 
 
