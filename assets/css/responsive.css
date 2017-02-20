@@ -1,10 +1,11 @@
 /* Custom, iPhone Retina */ 
-    /*@media only screen and (max-width : 480px) {
-        #headerwrap {
-            height: 50%;
-            background-color: forestgreen;
-            color: red;
-            border: 10px solid red;
+    @media only screen and (max-width : 480px) {
+        .tough-mudder {
+            margin-top: -48px;
         }
         
-    }*/
+        .cricket {
+            margin-top: 36px;
+        }
+        
+    }
